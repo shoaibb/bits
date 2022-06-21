@@ -4,7 +4,15 @@
         <link>http://shoaibb.github.io/bits/tags/</link>
         <description>Tags - Tag - RandomBits</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
-            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Tue, 21 Jun 2022 12:26:55 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>General</title>
+    <link>http://shoaibb.github.io/bits/tags/general/</link>
+    <pubDate>Tue, 21 Jun 2022 12:26:55 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/tags/general/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Blogging</title>
     <link>http://shoaibb.github.io/bits/tags/blogging/</link>
     <pubDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</pubDate>
@@ -26,14 +34,6 @@
     <pubDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
     <guid>http://shoaibb.github.io/bits/tags/fast/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>General</title>
-    <link>http://shoaibb.github.io/bits/tags/general/</link>
-    <pubDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/tags/general/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
