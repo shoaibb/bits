@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Development - Category - RandomBits</title>
-        <link>http://shoaibb.github.io/notes/categories/development/</link>
+        <link>http://shoaibb.github.io/bits/categories/development/</link>
         <description>Development - Category - RandomBits</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
-            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/notes/categories/development/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/categories/development/" rel="self" type="application/rss+xml" /><item>
     <title>Second post</title>
-    <link>http://shoaibb.github.io/notes/posts/20220620/</link>
+    <link>http://shoaibb.github.io/bits/posts/20220620/</link>
     <pubDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/notes/posts/20220620/</guid>
+    <guid>http://shoaibb.github.io/bits/posts/20220620/</guid>
     <description><![CDATA[When building the website, you can set a theme by using &ndash;theme option. However, we suggest you modify the configuration file (config.toml) and set the theme as the default.
 Some code here:
 1 print(&#34;Hello World!&#34;) 1 print(&#34;hello&#34;) ]]></description>
