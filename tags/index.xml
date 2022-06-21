@@ -1,0 +1,48 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - RandomBits</title>
+        <link>http://shoaibb.github.io/notes/tags/</link>
+        <description>Tags - Tag - RandomBits</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/notes/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Blogging</title>
+    <link>http://shoaibb.github.io/notes/tags/blogging/</link>
+    <pubDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/notes/tags/blogging/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Development</title>
+    <link>http://shoaibb.github.io/notes/tags/development/</link>
+    <pubDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/notes/tags/development/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>fast</title>
+    <link>http://shoaibb.github.io/notes/tags/fast/</link>
+    <pubDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/notes/tags/fast/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>General</title>
+    <link>http://shoaibb.github.io/notes/tags/general/</link>
+    <pubDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/notes/tags/general/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Go</title>
+    <link>http://shoaibb.github.io/notes/tags/go/</link>
+    <pubDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/notes/tags/go/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
