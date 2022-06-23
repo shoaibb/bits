@@ -1,32 +1,32 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - RandomBits</title>
-        <link>http://shoaibb.github.io/posts/</link>
+        <link>http://shoaibb.github.io/bits/posts/</link>
         <description>All Posts | RandomBits</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
-            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Tue, 21 Jun 2022 12:26:55 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Tue, 21 Jun 2022 12:26:55 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/posts/" rel="self" type="application/rss+xml" /><item>
     <title>My Third Post</title>
-    <link>http://shoaibb.github.io/posts/my-third-post/</link>
+    <link>http://shoaibb.github.io/bits/posts/my-third-post/</link>
     <pubDate>Tue, 21 Jun 2022 12:26:55 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/posts/my-third-post/</guid>
+    <guid>http://shoaibb.github.io/bits/posts/my-third-post/</guid>
     <description><![CDATA[This is my third post&hellip;]]></description>
 </item>
 <item>
     <title>First post</title>
-    <link>http://shoaibb.github.io/posts/first_post/</link>
+    <link>http://shoaibb.github.io/bits/posts/first_post/</link>
     <pubDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/posts/first_post/</guid>
+    <guid>http://shoaibb.github.io/bits/posts/first_post/</guid>
     <description><![CDATA[When building the website, you can set a theme by using &ndash;theme option. However, we suggest you modify the configuration file (config.toml) and set the theme as the default.
 Heading 1 sub-heading Heading 2 sub-heading1 sub-heading2 Heading 3 sub-heading1 sub-heading2 sub-heading3 sub-heading4 Heading 4 sub-heading1 sub-heading2 ]]></description>
 </item>
 <item>
     <title>Second post</title>
-    <link>http://shoaibb.github.io/posts/20220620/</link>
+    <link>http://shoaibb.github.io/bits/posts/20220620/</link>
     <pubDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/posts/20220620/</guid>
+    <guid>http://shoaibb.github.io/bits/posts/20220620/</guid>
     <description><![CDATA[When building the website, you can set a theme by using &ndash;theme option. However, we suggest you modify the configuration file (config.toml) and set the theme as the default.
 Some code here:
 1 print(&#34;Hello World!&#34;) 1 print(&#34;hello&#34;) ]]></description>
