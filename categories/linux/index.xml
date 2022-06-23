@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Linux - Category - RandomBits</title>
+        <link>http://shoaibb.github.io/bits/categories/linux/</link>
+        <description>Linux - Category - RandomBits</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Thu, 23 Jun 2022 12:04:20 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/categories/linux/" rel="self" type="application/rss+xml" /><item>
+    <title>Linux</title>
+    <link>http://shoaibb.github.io/bits/posts/linux/</link>
+    <pubDate>Thu, 23 Jun 2022 12:04:20 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/linux/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
