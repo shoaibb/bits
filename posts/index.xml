@@ -42,15 +42,6 @@ We can use the following scp command to transfer file(s) from your local machine
 1 sudo ln -s &#39;/run/user/310617548/gvfs/smb-share:server=10.1.111.10,share=forskning03$/Dioxinlab/_mzML-files/&#39; files_to_move ]]></description>
 </item>
 <item>
-    <title>First post</title>
-    <link>http://shoaibb.github.io/bits/posts/first_post/</link>
-    <pubDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/posts/first_post/</guid>
-    <description><![CDATA[When building the website, you can set a theme by using &ndash;theme option. However, we suggest you modify the configuration file (config.toml) and set the theme as the default.
-Heading 1 sub-heading Heading 2 sub-heading1 sub-heading2 Heading 3 sub-heading1 sub-heading2 sub-heading3 sub-heading4 Heading 4 sub-heading1 sub-heading2 ]]></description>
-</item>
-<item>
     <title>Second post</title>
     <link>http://shoaibb.github.io/bits/posts/20220620/</link>
     <pubDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</pubDate>
@@ -59,15 +50,6 @@ Heading 1 sub-heading Heading 2 sub-heading1 sub-heading2 Heading 3 sub-heading1
     <description><![CDATA[When building the website, you can set a theme by using &ndash;theme option. However, we suggest you modify the configuration file (config.toml) and set the theme as the default.
 Some code here:
 1 print(&#34;Hello World!&#34;) 1 print(&#34;hello&#34;) ]]></description>
-</item>
-<item>
-    <title>test post</title>
-    <link>http://shoaibb.github.io/bits/posts/test-file/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/posts/test-file/</guid>
-    <description><![CDATA[This is my third post&hellip;
-An autoencoder will encode the input distribution into a low-dimensional tensor, which usually takes the form of a vector. This will approximate the hidden structure that is commonly referred to as the latent representation, code, or vector. This process constitutes the encoding part. The latent vector will then be decoded by the decoder part to recover the original input.]]></description>
 </item>
 </channel>
 </rss>
