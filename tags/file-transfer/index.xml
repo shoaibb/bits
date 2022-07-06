@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Linux - Category - RandomBits</title>
-        <link>http://shoaibb.github.io/bits/categories/linux/</link>
-        <description>Linux - Category - RandomBits</description>
+        <title>File-Transfer - Tag - RandomBits</title>
+        <link>http://shoaibb.github.io/bits/tags/file-transfer/</link>
+        <description>File-Transfer - Tag - RandomBits</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
-            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 10:25:11 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/categories/linux/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 10:25:11 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/tags/file-transfer/" rel="self" type="application/rss+xml" /><item>
     <title>SCP File Transfering</title>
     <link>http://shoaibb.github.io/bits/posts/scp/</link>
     <pubDate>Wed, 06 Jul 2022 10:25:11 &#43;0200</pubDate>
@@ -12,14 +12,6 @@
     <guid>http://shoaibb.github.io/bits/posts/scp/</guid>
     <description><![CDATA[Use the following command to transfer file(s) from your local machine to a remote machine. Remember to cd first to the files location and then run this command (shobak-local is your local username and shoabk-remote is the remote username).
 1 2 3 # cd to location of files that are to be transferred $ cd /home/shobak-local/Desktop ~/shobak-local/Desktop$ 1 $ scp files_to_move.zip shobak-remote@192.185.61.82:/home/shobak-remote/Downloads ]]></description>
-</item>
-<item>
-    <title>Linux</title>
-    <link>http://shoaibb.github.io/bits/posts/linux/</link>
-    <pubDate>Thu, 23 Jun 2022 12:04:20 &#43;0200</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/posts/linux/</guid>
-    <description><![CDATA[]]></description>
 </item>
 </channel>
 </rss>

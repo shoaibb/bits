@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>General - Category - RandomBits</title>
+        <link>http://shoaibb.github.io/bits/categories/general/</link>
+        <description>General - Category - RandomBits</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><atom:link href="http://shoaibb.github.io/bits/categories/general/" rel="self" type="application/rss+xml" /><item>
+    <title>test post</title>
+    <link>http://shoaibb.github.io/bits/posts/test-file/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/test-file/</guid>
+    <description><![CDATA[This is my third post&hellip;
+An autoencoder will encode the input distribution into a low-dimensional tensor, which usually takes the form of a vector. This will approximate the hidden structure that is commonly referred to as the latent representation, code, or vector. This process constitutes the encoding part. The latent vector will then be decoded by the decoder part to recover the original input.]]></description>
+</item>
+</channel>
+</rss>
