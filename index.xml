@@ -4,9 +4,27 @@
         <link>http://shoaibb.github.io/bits/</link>
         <description>Welcome to My Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
-            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 10:25:11 &#43;0200</lastBuildDate>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 11:05:49 &#43;0200</lastBuildDate>
             <atom:link href="http://shoaibb.github.io/bits/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Filesearch</title>
+    <link>http://shoaibb.github.io/bits/posts/filesearch/</link>
+    <pubDate>Wed, 06 Jul 2022 11:05:49 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/filesearch/</guid>
+    <description><![CDATA[Searching for a file is fairly easy in a bash terminal. We can search a file if we know part of the file name or full name or even the file extension. For example, use the following command to find files using partial match in the file name, e.g. John
+1 find . -type f -name &#34;*John*&#34; Similarly, we can use the fullname for the file if we know it:]]></description>
+</item>
+<item>
+    <title>Creatin Files in Bulk</title>
+    <link>http://shoaibb.github.io/bits/posts/bulkfiles/</link>
+    <pubDate>Wed, 06 Jul 2022 11:05:36 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/bulkfiles/</guid>
+    <description><![CDATA[Sometimes, we need to create smaller files in bulk for different purpose (such as, to test file transfer speed over a network). We can use the following bash one line script to do the job of creating 500 files each having 1MB size. The command will create files in a dir smaller_files
+1 for i in {001..500}; do head -c 1M &lt;/dev/urandom &gt;smaller_files/randfile$i; done ]]></description>
+</item>
+<item>
     <title>SCP File Transfering</title>
     <link>http://shoaibb.github.io/bits/posts/scp/</link>
     <pubDate>Wed, 06 Jul 2022 10:25:11 &#43;0200</pubDate>
@@ -17,12 +35,13 @@ We can use the following scp command to transfer file(s) from your local machine
 1 2 3 # cd to location of files that are to be transferred cd /home/shobak-local/Desktop ~/shobak-local/Desktop$ 1 scp files_to_move.]]></description>
 </item>
 <item>
-    <title>Linux</title>
-    <link>http://shoaibb.github.io/bits/posts/linux/</link>
+    <title>Shortcut/Symlink</title>
+    <link>http://shoaibb.github.io/bits/posts/symlink/</link>
     <pubDate>Thu, 23 Jun 2022 12:04:20 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/posts/linux/</guid>
-    <description><![CDATA[]]></description>
+    <guid>http://shoaibb.github.io/bits/posts/symlink/</guid>
+    <description><![CDATA[Suppose we have a directory: /run/user/310617548/gvfs/smb-share:server=10.1.111.10,share=forskning03$/Dioxinlab/mzML-files/ We can use the following command to create a shortcut/symlink to this directory at the current location (from where the command is executed). The shortcut name will be files_to_move.
+1 sudo ln -s &#39;/run/user/310617548/gvfs/smb-share:server=10.1.111.10,share=forskning03$/Dioxinlab/_mzML-files/&#39; files_to_move ]]></description>
 </item>
 <item>
     <title>First post</title>

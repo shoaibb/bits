@@ -1,0 +1,26 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>bash - Tag - RandomBits</title>
+        <link>http://shoaibb.github.io/bits/tags/bash/</link>
+        <description>bash - Tag - RandomBits</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 11:05:49 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/tags/bash/" rel="self" type="application/rss+xml" /><item>
+    <title>Filesearch</title>
+    <link>http://shoaibb.github.io/bits/posts/filesearch/</link>
+    <pubDate>Wed, 06 Jul 2022 11:05:49 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/filesearch/</guid>
+    <description><![CDATA[Searching for a file is fairly easy in a bash terminal. We can search a file if we know part of the file name or full name or even the file extension. For example, use the following command to find files using partial match in the file name, e.g. John
+1 find . -type f -name &#34;*John*&#34; Similarly, we can use the fullname for the file if we know it:]]></description>
+</item>
+<item>
+    <title>Creatin Files in Bulk</title>
+    <link>http://shoaibb.github.io/bits/posts/bulkfiles/</link>
+    <pubDate>Wed, 06 Jul 2022 11:05:36 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/bulkfiles/</guid>
+    <description><![CDATA[Sometimes, we need to create smaller files in bulk for different purpose (such as, to test file transfer speed over a network). We can use the following bash one line script to do the job of creating 500 files each having 1MB size. The command will create files in a dir smaller_files
+1 for i in {001..500}; do head -c 1M &lt;/dev/urandom &gt;smaller_files/randfile$i; done ]]></description>
+</item>
+</channel>
+</rss>

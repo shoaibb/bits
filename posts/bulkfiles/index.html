@@ -4,38 +4,36 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>SCP File Transfering - RandomBits</title><meta name="Description" content="Welcome to My Blog"><meta property="og:title" content="SCP File Transfering" />
-<meta property="og:description" content="SCP is a nice tool that can be used for file transferring between two computers (referred to as machines in this post).
-We can use the following scp command to transfer file(s) from your local machine to a remote machine. Remember to cd first to the files location and then run this command (shobak-local is your local username and shoabk-remote is the remote username).
-1 2 3 # cd to location of files that are to be transferred cd /home/shobak-local/Desktop ~/shobak-local/Desktop$ 1 scp files_to_move." />
+        <title>Creatin Files in Bulk - RandomBits</title><meta name="Description" content="Welcome to My Blog"><meta property="og:title" content="Creatin Files in Bulk" />
+<meta property="og:description" content="Sometimes, we need to create smaller files in bulk for different purpose (such as, to test file transfer speed over a network). We can use the following bash one line script to do the job of creating 500 files each having 1MB size. The command will create files in a dir smaller_files
+1 for i in {001..500}; do head -c 1M &lt;/dev/urandom &gt;smaller_files/randfile$i; done " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://shoaibb.github.io/bits/posts/scp/" /><meta property="og:image" content="http://shoaibb.github.io/logo.png"/><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-07-06T10:25:11+02:00" />
-<meta property="article:modified_time" content="2022-07-06T10:25:11+02:00" /><meta property="og:site_name" content="My cool site" />
+<meta property="og:url" content="http://shoaibb.github.io/bits/posts/bulkfiles/" /><meta property="og:image" content="http://shoaibb.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-07-06T11:05:36+02:00" />
+<meta property="article:modified_time" content="2022-07-06T11:05:36+02:00" /><meta property="og:site_name" content="My cool site" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="http://shoaibb.github.io/logo.png"/>
 
-<meta name="twitter:title" content="SCP File Transfering"/>
-<meta name="twitter:description" content="SCP is a nice tool that can be used for file transferring between two computers (referred to as machines in this post).
-We can use the following scp command to transfer file(s) from your local machine to a remote machine. Remember to cd first to the files location and then run this command (shobak-local is your local username and shoabk-remote is the remote username).
-1 2 3 # cd to location of files that are to be transferred cd /home/shobak-local/Desktop ~/shobak-local/Desktop$ 1 scp files_to_move."/>
+<meta name="twitter:title" content="Creatin Files in Bulk"/>
+<meta name="twitter:description" content="Sometimes, we need to create smaller files in bulk for different purpose (such as, to test file transfer speed over a network). We can use the following bash one line script to do the job of creating 500 files each having 1MB size. The command will create files in a dir smaller_files
+1 for i in {001..500}; do head -c 1M &lt;/dev/urandom &gt;smaller_files/randfile$i; done "/>
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://shoaibb.github.io/bits/posts/scp/" /><link rel="prev" href="http://shoaibb.github.io/bits/posts/symlink/" /><link rel="next" href="http://shoaibb.github.io/bits/posts/bulkfiles/" /><link rel="stylesheet" href="/bits/css/style.min.dc1e265a9e9cc52f661677164054d753.css" integrity="md5-3B4mWp6cxS9mFncWQFTXUw=="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://shoaibb.github.io/bits/posts/bulkfiles/" /><link rel="prev" href="http://shoaibb.github.io/bits/posts/scp/" /><link rel="next" href="http://shoaibb.github.io/bits/posts/filesearch/" /><link rel="stylesheet" href="/bits/css/style.min.dc1e265a9e9cc52f661677164054d753.css" integrity="md5-3B4mWp6cxS9mFncWQFTXUw=="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "SCP File Transfering",
+        "headline": "Creatin Files in Bulk",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/shoaibb.github.io\/bits\/posts\/scp\/"
-        },"genre": "posts","keywords": "scp, linux-tips, File-Transfer","wordcount":  159 ,
-        "url": "http:\/\/shoaibb.github.io\/bits\/posts\/scp\/","datePublished": "2022-07-06T10:25:11+02:00","dateModified": "2022-07-06T10:25:11+02:00","publisher": {
+            "@id": "http:\/\/shoaibb.github.io\/bits\/posts\/bulkfiles\/"
+        },"genre": "posts","keywords": "bash, Linux-tips, Programming","wordcount":  64 ,
+        "url": "http:\/\/shoaibb.github.io\/bits\/posts\/bulkfiles\/","datePublished": "2022-07-06T11:05:36+02:00","dateModified": "2022-07-06T11:05:36+02:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -104,45 +102,21 @@ We can use the following scp command to transfer file(s) from your local machine
     <div class="search-dropdown mobile">
         <div id="search-dropdown-mobile"></div>
     </div><main class="main">
-                <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">SCP File Transfering</h1><div class="post-meta">
-            <div class="post-meta-line"><span class="post-author"><a href="/bits/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Shoaib Bakhtyar</a></span>&nbsp;<span class="post-category">included in <a href="/bits/categories/linux/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Linux</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-06">2022-07-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;159 words&nbsp;
+                <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Creatin Files in Bulk</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/bits/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Shoaib Bakhtyar</a></span>&nbsp;<span class="post-category">included in <a href="/bits/categories/linux/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Linux</a>&nbsp;<a href="/bits/categories/bash/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Bash</a>&nbsp;<a href="/bits/categories/programming/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Programming</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-06">2022-07-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;64 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
-        </div><div class="content" id="content"><p>SCP is a nice tool that can be used for file transferring between two computers (referred to as machines in this post).</p>
-<p>We can use the following <code>scp</code> command to transfer file(s) from your local machine to a remote machine. Remember to cd first to the files location and then run this command (shobak-local is your local username and shoabk-remote is the remote username).</p>
+        </div><div class="content" id="content"><p>Sometimes, we need to create smaller files in bulk for different purpose (such as, to test file transfer speed over a network). We can use the following bash one line script to do the job of creating 500 files each having 1MB size.
+The command will create files in a dir <strong>smaller_files</strong></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># cd to location of files that are to be transferred</span>
-</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /home/shobak-local/Desktop
-</span></span><span class="line"><span class="cl">~/shobak-local/Desktop$ 
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="k">for</span> i in <span class="o">{</span>001..500<span class="o">}</span><span class="p">;</span> <span class="k">do</span> head -c 1M &lt;/dev/urandom &gt;smaller_files/randfile<span class="nv">$i</span><span class="p">;</span> <span class="k">done</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">scp files_to_move.zip shobak-remote@192.185.61.82:/home/shobak-remote/Downloads
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>Similarly, to get a file from a remote machine to your local machine, USE the full path to the file/folder to be copied (from remote machine). Then on your local machine use the following command to copy the file from remote to local machine:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># scp user@remote:&lt;path&gt;/error.txt /Users/myname/Desktop</span>
-</span></span><span class="line"><span class="cl">scp shobak-remote@192.185.61.82:/home/shobak-remote/Downloads/error.txt /Users/local-username/Desktop
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>The above command will ask for your username/password for the remote machine and then copies the file(s) to your local machine.</p>
-</div><div class="post-footer" id="post-footer">
+</div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -151,20 +125,20 @@ We can use the following scp command to transfer file(s) from your local machine
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://shoaibb.github.io/bits/posts/scp/" data-title="SCP File Transfering" data-hashtags="scp,linux-tips,File-Transfer"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://shoaibb.github.io/bits/posts/scp/" data-hashtag="scp"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="http://shoaibb.github.io/bits/posts/scp/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://shoaibb.github.io/bits/posts/scp/" data-title="SCP File Transfering"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="http://shoaibb.github.io/bits/posts/scp/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://shoaibb.github.io/bits/posts/bulkfiles/" data-title="Creatin Files in Bulk" data-hashtags="bash,Linux-tips,Programming"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://shoaibb.github.io/bits/posts/bulkfiles/" data-hashtag="bash"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="http://shoaibb.github.io/bits/posts/bulkfiles/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://shoaibb.github.io/bits/posts/bulkfiles/" data-title="Creatin Files in Bulk"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="http://shoaibb.github.io/bits/posts/bulkfiles/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/bits/tags/scp/">scp</a>,&nbsp;<a href="/bits/tags/linux-tips/">Linux-tips</a>,&nbsp;<a href="/bits/tags/file-transfer/">File-Transfer</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/bits/tags/bash/">bash</a>,&nbsp;<a href="/bits/tags/linux-tips/">Linux-tips</a>,&nbsp;<a href="/bits/tags/programming/">Programming</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/bits/">Home</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/bits/posts/symlink/" class="prev" rel="prev" title="Shortcut/Symlink"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Shortcut/Symlink</a>
-            <a href="/bits/posts/bulkfiles/" class="next" rel="next" title="Creatin Files in Bulk">Creatin Files in Bulk<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/bits/posts/scp/" class="prev" rel="prev" title="SCP File Transfering"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>SCP File Transfering</a>
+            <a href="/bits/posts/filesearch/" class="next" rel="next" title="Filesearch">Filesearch<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">

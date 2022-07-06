@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>symlink - Tag - RandomBits</title>
+        <link>http://shoaibb.github.io/bits/tags/symlink/</link>
+        <description>symlink - Tag - RandomBits</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Thu, 23 Jun 2022 12:04:20 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/tags/symlink/" rel="self" type="application/rss+xml" /><item>
+    <title>Shortcut/Symlink</title>
+    <link>http://shoaibb.github.io/bits/posts/symlink/</link>
+    <pubDate>Thu, 23 Jun 2022 12:04:20 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/symlink/</guid>
+    <description><![CDATA[Suppose we have a directory: /run/user/310617548/gvfs/smb-share:server=10.1.111.10,share=forskning03$/Dioxinlab/mzML-files/ We can use the following command to create a shortcut/symlink to this directory at the current location (from where the command is executed). The shortcut name will be files_to_move.
+1 sudo ln -s &#39;/run/user/310617548/gvfs/smb-share:server=10.1.111.10,share=forskning03$/Dioxinlab/_mzML-files/&#39; files_to_move ]]></description>
+</item>
+</channel>
+</rss>
