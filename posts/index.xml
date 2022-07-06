@@ -5,7 +5,7 @@
         <description>All Posts | RandomBits</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
             <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 11:05:49 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Filesearch</title>
+    <title>File Searching Through Terminal</title>
     <link>http://shoaibb.github.io/bits/posts/filesearch/</link>
     <pubDate>Wed, 06 Jul 2022 11:05:49 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
@@ -14,7 +14,7 @@
 1 find . -type f -name &#34;*John*&#34; Similarly, we can use the fullname for the file if we know it:]]></description>
 </item>
 <item>
-    <title>Creatin Files in Bulk</title>
+    <title>Creating Small Files in Bulk</title>
     <link>http://shoaibb.github.io/bits/posts/bulkfiles/</link>
     <pubDate>Wed, 06 Jul 2022 11:05:36 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
@@ -40,16 +40,6 @@ We can use the following scp command to transfer file(s) from your local machine
     <guid>http://shoaibb.github.io/bits/posts/symlink/</guid>
     <description><![CDATA[Suppose we have a directory: /run/user/310617548/gvfs/smb-share:server=10.1.111.10,share=forskning03$/Dioxinlab/mzML-files/ We can use the following command to create a shortcut/symlink to this directory at the current location (from where the command is executed). The shortcut name will be files_to_move.
 1 sudo ln -s &#39;/run/user/310617548/gvfs/smb-share:server=10.1.111.10,share=forskning03$/Dioxinlab/_mzML-files/&#39; files_to_move ]]></description>
-</item>
-<item>
-    <title>Second post</title>
-    <link>http://shoaibb.github.io/bits/posts/20220620/</link>
-    <pubDate>Mon, 20 Jun 2022 09:32:54 &#43;0200</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/posts/20220620/</guid>
-    <description><![CDATA[When building the website, you can set a theme by using &ndash;theme option. However, we suggest you modify the configuration file (config.toml) and set the theme as the default.
-Some code here:
-1 print(&#34;Hello World!&#34;) 1 print(&#34;hello&#34;) ]]></description>
 </item>
 </channel>
 </rss>

@@ -5,7 +5,7 @@
         <description>Linux-tips - Tag - RandomBits</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
             <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 11:05:49 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/tags/linux-tips/" rel="self" type="application/rss+xml" /><item>
-    <title>Filesearch</title>
+    <title>File Searching Through Terminal</title>
     <link>http://shoaibb.github.io/bits/posts/filesearch/</link>
     <pubDate>Wed, 06 Jul 2022 11:05:49 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
@@ -14,7 +14,7 @@
 1 find . -type f -name &#34;*John*&#34; Similarly, we can use the fullname for the file if we know it:]]></description>
 </item>
 <item>
-    <title>Creatin Files in Bulk</title>
+    <title>Creating Small Files in Bulk</title>
     <link>http://shoaibb.github.io/bits/posts/bulkfiles/</link>
     <pubDate>Wed, 06 Jul 2022 11:05:36 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
