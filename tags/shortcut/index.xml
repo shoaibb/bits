@@ -11,7 +11,7 @@
     <author>Shoaib Bakhtyar</author>
     <guid>http://shoaibb.github.io/bits/posts/symlink/</guid>
     <description><![CDATA[Suppose we have the following directory that we would like to create a shortcutto. We can use the bash command ln to create a shortcut or symlink (as its called in Linux).
-dir of interest /run/user/310617548/gvfs/smb-share:server=10.1.111.10,share=forskning03$/Dioxinlab/mzML-files/ We can use the following command to create a shortcut/symlink to this directory at the current location (from where the command is executed). The shortcut name will be files_to_move.
+Dir of interest /run/user/3106/gvfs/smb-share:server=10.1.111.10,share=forskning03$/zML-files/ We can use the following command to create a shortcut/symlink to this directory at the current location (from where the command is executed). The shortcut name will be files_to_move.
 1 sudo ln -s &#39;/run/user/310617548/gvfs/smb-share:server=10.1.111.10,share=forskning03$/Dioxinlab/_mzML-files/&#39; files_to_move ]]></description>
 </item>
 </channel>
