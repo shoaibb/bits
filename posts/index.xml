@@ -10,8 +10,9 @@
     <pubDate>Wed, 06 Jul 2022 10:25:11 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
     <guid>http://shoaibb.github.io/bits/posts/scp/</guid>
-    <description><![CDATA[Use the following command to transfer file(s) from your local machine to a remote machine. Remember to cd first to the files location and then run this command (shobak-local is your local username and shoabk-remote is the remote username).
-1 2 3 # cd to location of files that are to be transferred $ cd /home/shobak-local/Desktop ~/shobak-local/Desktop$ 1 $ scp files_to_move.zip shobak-remote@192.185.61.82:/home/shobak-remote/Downloads ]]></description>
+    <description><![CDATA[SCP is a nice tool that can be used for file transferring between two computers (referred to as machines in this post).
+We can use the following scp command to transfer file(s) from your local machine to a remote machine. Remember to cd first to the files location and then run this command (shobak-local is your local username and shoabk-remote is the remote username).
+1 2 3 # cd to location of files that are to be transferred cd /home/shobak-local/Desktop ~/shobak-local/Desktop$ 1 scp files_to_move.]]></description>
 </item>
 <item>
     <title>Linux</title>

@@ -5,8 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <title>SCP File Transfering - RandomBits</title><meta name="Description" content="Welcome to My Blog"><meta property="og:title" content="SCP File Transfering" />
-<meta property="og:description" content="Use the following command to transfer file(s) from your local machine to a remote machine. Remember to cd first to the files location and then run this command (shobak-local is your local username and shoabk-remote is the remote username).
-1 2 3 # cd to location of files that are to be transferred $ cd /home/shobak-local/Desktop ~/shobak-local/Desktop$ 1 $ scp files_to_move.zip shobak-remote@192.185.61.82:/home/shobak-remote/Downloads " />
+<meta property="og:description" content="SCP is a nice tool that can be used for file transferring between two computers (referred to as machines in this post).
+We can use the following scp command to transfer file(s) from your local machine to a remote machine. Remember to cd first to the files location and then run this command (shobak-local is your local username and shoabk-remote is the remote username).
+1 2 3 # cd to location of files that are to be transferred cd /home/shobak-local/Desktop ~/shobak-local/Desktop$ 1 scp files_to_move." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://shoaibb.github.io/bits/posts/scp/" /><meta property="og:image" content="http://shoaibb.github.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-07-06T10:25:11+02:00" />
@@ -16,8 +17,9 @@
 <meta name="twitter:image" content="http://shoaibb.github.io/logo.png"/>
 
 <meta name="twitter:title" content="SCP File Transfering"/>
-<meta name="twitter:description" content="Use the following command to transfer file(s) from your local machine to a remote machine. Remember to cd first to the files location and then run this command (shobak-local is your local username and shoabk-remote is the remote username).
-1 2 3 # cd to location of files that are to be transferred $ cd /home/shobak-local/Desktop ~/shobak-local/Desktop$ 1 $ scp files_to_move.zip shobak-remote@192.185.61.82:/home/shobak-remote/Downloads "/>
+<meta name="twitter:description" content="SCP is a nice tool that can be used for file transferring between two computers (referred to as machines in this post).
+We can use the following scp command to transfer file(s) from your local machine to a remote machine. Remember to cd first to the files location and then run this command (shobak-local is your local username and shoabk-remote is the remote username).
+1 2 3 # cd to location of files that are to be transferred cd /home/shobak-local/Desktop ~/shobak-local/Desktop$ 1 scp files_to_move."/>
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -32,7 +34,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/shoaibb.github.io\/bits\/posts\/scp\/"
-        },"genre": "posts","keywords": "scp, linux-tips, File-Transfer","wordcount":  62 ,
+        },"genre": "posts","keywords": "scp, linux-tips, File-Transfer","wordcount":  159 ,
         "url": "http:\/\/shoaibb.github.io\/bits\/posts\/scp\/","datePublished": "2022-07-06T10:25:11+02:00","dateModified": "2022-07-06T10:25:11+02:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -104,9 +106,10 @@
     </div><main class="main">
                 <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">SCP File Transfering</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/bits/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Shoaib Bakhtyar</a></span>&nbsp;<span class="post-category">included in <a href="/bits/categories/linux/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Linux</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-06">2022-07-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;62 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-06">2022-07-06</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;159 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
-        </div><div class="content" id="content"><p>Use the following command to transfer file(s) from your local machine to a remote machine. Remember to cd first to the files location and then run this command (shobak-local is your local username and shoabk-remote is the remote username).</p>
+        </div><div class="content" id="content"><p>SCP is a nice tool that can be used for file transferring between two computers (referred to as machines in this post).</p>
+<p>We can use the following <code>scp</code> command to transfer file(s) from your local machine to a remote machine. Remember to cd first to the files location and then run this command (shobak-local is your local username and shoabk-remote is the remote username).</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -115,7 +118,7 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># cd to location of files that are to be transferred</span>
-</span></span><span class="line"><span class="cl">$ <span class="nb">cd</span> /home/shobak-local/Desktop
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> /home/shobak-local/Desktop
 </span></span><span class="line"><span class="cl">~/shobak-local/Desktop$ 
 </span></span></code></pre></td></tr></table>
 </div>
@@ -124,10 +127,22 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ scp files_to_move.zip shobak-remote@192.185.61.82:/home/shobak-remote/Downloads
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">scp files_to_move.zip shobak-remote@192.185.61.82:/home/shobak-remote/Downloads
 </span></span></code></pre></td></tr></table>
 </div>
-</div></div><div class="post-footer" id="post-footer">
+</div><p>Similarly, to get a file from a remote machine to your local machine, USE the full path to the file/folder to be copied (from remote machine). Then on your local machine use the following command to copy the file from remote to local machine:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># scp user@remote:&lt;path&gt;/error.txt /Users/myname/Desktop</span>
+</span></span><span class="line"><span class="cl">scp shobak-remote@192.185.61.82:/home/shobak-remote/Downloads/error.txt /Users/local-username/Desktop
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The above command will ask for your username/password for the remote machine and then copies the file(s) to your local machine.</p>
+</div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
