@@ -4,7 +4,15 @@
         <link>http://shoaibb.github.io/bits/categories/</link>
         <description>Categories - Category - RandomBits</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
-            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 11:05:49 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/categories/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 12:16:13 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>MAC</title>
+    <link>http://shoaibb.github.io/bits/categories/mac/</link>
+    <pubDate>Wed, 06 Jul 2022 12:16:13 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/categories/mac/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>Linux</title>
     <link>http://shoaibb.github.io/bits/categories/linux/</link>
     <pubDate>Wed, 06 Jul 2022 11:05:49 &#43;0200</pubDate>

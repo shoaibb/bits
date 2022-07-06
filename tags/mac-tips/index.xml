@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>MAC-Tips - Tag - RandomBits</title>
+        <link>http://shoaibb.github.io/bits/tags/mac-tips/</link>
+        <description>MAC-Tips - Tag - RandomBits</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 12:16:13 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/tags/mac-tips/" rel="self" type="application/rss+xml" /><item>
+    <title>MAC App Installation Error</title>
+    <link>http://shoaibb.github.io/bits/posts/appinstallerr/</link>
+    <pubDate>Wed, 06 Jul 2022 12:16:13 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/appinstallerr/</guid>
+    <description><![CDATA[Most often you install an app from source other than Apple, you may get an error while opening the installed App. The error message somehow look like below:
+Error App Damaged and cannot be opened In order to fix this type of error and to be able to open the app (for example, application.app), type and run the following command on your MAC terminal:
+1 sudo xattr -cr /path/to/application.app ]]></description>
+</item>
+</channel>
+</rss>
