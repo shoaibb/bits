@@ -32,7 +32,7 @@ Step 1: First step is to run jupyter in the remote server using the port XXXX, i
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/shoaibb.github.io\/bits\/posts\/ssh-port-fowarding\/"
-        },"genre": "posts","keywords": "jupyter, ssh, remote-server, port-forwarding","wordcount":  217 ,
+        },"genre": "posts","keywords": "jupyter, ssh, remote-server, port-forwarding","wordcount":  340 ,
         "url": "http:\/\/shoaibb.github.io\/bits\/posts\/ssh-port-fowarding\/","datePublished": "2022-07-07T12:16:13+02:00","dateModified": "2022-07-10T12:16:13+02:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -104,7 +104,7 @@ Step 1: First step is to run jupyter in the remote server using the port XXXX, i
     </div><main class="main">
                 <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Port forwarding using SSH</h1><h2 class="single-subtitle">Accessing jupyter running on a remote server through ssh</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/bits/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Shoaib Bakhtyar</a></span>&nbsp;<span class="post-category">included in <a href="/bits/categories/linux-tips/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Linux-tips</a>&nbsp;<a href="/bits/categories/jupyter/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Jupyter</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-07">2022-07-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;217 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-07">2022-07-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;340 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="content" id="content"><p><br>
 This tip is about using a remote server as a development environment by running a jupyter notebook on the remote server (where the only port that is opened is port 22 for SSH) and using the local machine to connect (and use) jupyter notebook.</p>
@@ -145,7 +145,32 @@ This tip is about using a remote server as a development environment by running 
     </div>
 <h4 id="step-3">Step 3</h4>
 <p>Executing Step 2 will ask for password for the remoteuser of <code>192.162.11.12</code>. Once, successfully logged in, you can simply start your browser and use the address <code>localhost:YYYY</code> to access jupyter notebook on the remote machine.</p>
-</div><div class="post-footer" id="post-footer">
+<h4 id="step-4---some-automation-optional">Step 4 - some automation (optional)</h4>
+<p>We can define our own function in bash so that we do not have to type the ssh command over and over again in daily routine. Instead we can only provide the ports that we intend to map from remote server to local machine in our defined function. To do so, use the following code in your <code>.bashrc</code> or <code>.zshrc</code> file at the very end.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="k">function</span> jremot<span class="o">(){</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Forwards port $2 into port $1 and listens to it</span>
+</span></span><span class="line"><span class="cl">    ssh -N -L localhost:<span class="s2">&#34;</span><span class="nv">$1</span><span class="s2">&#34;</span>:localhost:<span class="s2">&#34;</span><span class="nv">$2</span><span class="s2">&#34;</span> username@130.213.109.10
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now, we can run the following command in our terminal (with local port 2426 and remote port 9999) to automate the proccess in Step 2.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">jremot <span class="m">2426</span> <span class="m">9999</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
