@@ -20,7 +20,8 @@ Step 1: First step is to run jupyter in the remote server using the port XXXX, i
     <pubDate>Wed, 06 Jul 2022 12:16:13 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
     <guid>http://shoaibb.github.io/bits/posts/appinstallerr/</guid>
-    <description><![CDATA[Most often you install an app from source other than Apple, you may get an error while opening the installed App. The error message somehow look like below:
+    <description><![CDATA[
+Most often you install an app from source other than Apple, you may get an error while opening the installed App. The error message somehow look like below:
 Error App Damaged and cannot be opened In order to fix this type of error and to be able to open the app (for example, application.app), type and run the following command on your MAC terminal:
 1 sudo xattr -cr /path/to/application.app ]]></description>
 </item>

@@ -32,7 +32,7 @@ Step 1: First step is to run jupyter in the remote server using the port XXXX, i
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/shoaibb.github.io\/bits\/posts\/ssh-port-fowarding\/"
-        },"genre": "posts","keywords": "jupyter, ssh, remote-server, port-forwarding","wordcount":  216 ,
+        },"genre": "posts","keywords": "jupyter, ssh, remote-server, port-forwarding","wordcount":  217 ,
         "url": "http:\/\/shoaibb.github.io\/bits\/posts\/ssh-port-fowarding\/","datePublished": "2022-07-07T12:16:13+02:00","dateModified": "2022-07-10T12:16:13+02:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -104,7 +104,7 @@ Step 1: First step is to run jupyter in the remote server using the port XXXX, i
     </div><main class="main">
                 <div class="container"><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Port forwarding using SSH</h1><h2 class="single-subtitle">Accessing jupyter running on a remote server through ssh</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/bits/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Shoaib Bakhtyar</a></span>&nbsp;<span class="post-category">included in <a href="/bits/categories/linux-tips/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Linux-tips</a>&nbsp;<a href="/bits/categories/jupyter/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Jupyter</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-07">2022-07-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;216 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-07">2022-07-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;217 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
         </div><div class="content" id="content"><p><br>
 <br>
@@ -130,12 +130,20 @@ This tip is about using a remote server as a development environment by running 
 <pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh -N -L localhost:YYYY:localhost:XXXX remoteuser@192.162.11.12
 </span></span></code></pre></td></tr></table>
 </div>
-</div><ul>
+</div><div class="details admonition note open">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>Note<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><ul>
 <li><code>192.162.11.12</code>: ip address of the remote server</li>
 <li><code>remoteuser</code>: username/account at the remote server where jupter is running</li>
 <li><code>-N</code>: Suppresses the execution of a remote command. Pretty much used in port forwarding.</li>
 <li><code>-L</code>: This requires an input in the form of local_socket:remote_socket. Here, port YYYY will be binded to the port XXXX from your remote connection.</li>
 </ul>
+</div>
+        </div>
+    </div>
 <h4 id="step-3">Step 3</h4>
 <p>Executing Step 2 will ask for password for the remoteuser of <code>192.162.11.12</code>. Once, successfully logged in, you can simply start your browser and use the address <code>localhost:YYYY</code> to access jupyter notebook on the remote machine.</p>
 </div><div class="post-footer" id="post-footer">
