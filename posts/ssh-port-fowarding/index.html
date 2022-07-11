@@ -5,7 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <title>Port forwarding using SSH - RandomBits</title><meta name="Description" content="Welcome to My Blog"><meta property="og:title" content="Port forwarding using SSH" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="This tip is about using a remote server as a development environment by running a jupyter notebook on the remote server (where the only port that is opened is port 22 for SSH) and using the local machine to connect (and use) jupyter notebook.
+Here, we assume that jupyter is running inside the remote server using port XXXX.
+Step 1: First step is to run jupyter in the remote server using the port XXXX, i." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://shoaibb.github.io/bits/posts/ssh-port-fowarding/" /><meta property="og:image" content="http://shoaibb.github.io/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-07-07T12:16:13+02:00" />
@@ -15,7 +17,9 @@
 <meta name="twitter:image" content="http://shoaibb.github.io/logo.png"/>
 
 <meta name="twitter:title" content="Port forwarding using SSH"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="This tip is about using a remote server as a development environment by running a jupyter notebook on the remote server (where the only port that is opened is port 22 for SSH) and using the local machine to connect (and use) jupyter notebook.
+Here, we assume that jupyter is running inside the remote server using port XXXX.
+Step 1: First step is to run jupyter in the remote server using the port XXXX, i."/>
 <meta name="application-name" content="RandomBits">
 <meta name="apple-mobile-web-app-title" content="RandomBits"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="IMG_0657.jpg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://shoaibb.github.io/bits/posts/ssh-port-fowarding/" /><link rel="prev" href="http://shoaibb.github.io/bits/posts/appinstallerr/" /><link rel="stylesheet" href="/bits/css/style.min.dc1e265a9e9cc52f661677164054d753.css" integrity="md5-3B4mWp6cxS9mFncWQFTXUw=="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -102,9 +106,10 @@
             <div class="post-meta-line"><span class="post-author"><a href="/bits/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Shoaib Bakhtyar</a></span>&nbsp;<span class="post-category">included in <a href="/bits/categories/linux-tips/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Linux-tips</a>&nbsp;<a href="/bits/categories/jupyter/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Jupyter</a></span></div>
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-07-07">2022-07-07</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;216 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;2 minutes&nbsp;</div>
-        </div><div class="content" id="content"><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>This tip is about using a remote server as a development environment by running a jupyter notebook on the remote server (where the only port that is opened is port 22 for SSH) and using the local machine to connect (and use) jupyter notebook.</p>
+        </div><div class="content" id="content"><p><br>
+<br>
+<br>
+This tip is about using a remote server as a development environment by running a jupyter notebook on the remote server (where the only port that is opened is port 22 for SSH) and using the local machine to connect (and use) jupyter notebook.</p>
 <p>Here, we assume that jupyter is running inside the remote server using port <code>XXXX</code>.</p>
 <h4 id="step-1">Step 1:</h4>
 <p>First step is to run jupyter in the remote server using the port <code>XXXX</code>, i.e.,</p>
@@ -133,7 +138,8 @@
 <li><code>-L</code>: This requires an input in the form of local_socket:remote_socket. Here, port YYYY will be binded to the port XXXX from your remote connection.</li>
 </ul>
 <h4 id="step-3">Step 3</h4>
-<p>Executing Step 2 will ask for password for the remoteuser of <code>192.162.11.12</code>. Once, successfully logged in, you can simply start your browser and use the address <code>localhost:YYYY</code> to access jupyter notebook on the remote machine.</p></div><div class="post-footer" id="post-footer">
+<p>Executing Step 2 will ask for password for the remoteuser of <code>192.162.11.12</code>. Once, successfully logged in, you can simply start your browser and use the address <code>localhost:YYYY</code> to access jupyter notebook on the remote machine.</p>
+</div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
