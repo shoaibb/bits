@@ -12,7 +12,8 @@
     <pubDate>Thu, 07 Jul 2022 12:16:13 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
     <guid>http://shoaibb.github.io/bits/posts/ssh-port-fowarding/</guid>
-    <description><![CDATA[This tip is about using a remote server as a development environment by running a jupyter notebook on the remote server (where the only port that is opened is port 22 for SSH) and using the local machine to connect (and use) jupyter notebook. Here, we assume that jupyter is running inside the remote server using port XXXX.
+    <description><![CDATA[This tip is about using a remote server as a development environment by running a jupyter notebook on the remote server (where the only port that is opened is port 22 for SSH) and using the local machine to connect (and use) jupyter notebook.
+Here, we assume that jupyter is running inside the remote server using port XXXX.
 Step 1: First step is to run jupyter in the remote server using the port XXXX, i.]]></description>
 </item>
 <item>
