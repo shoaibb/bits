@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>ssh - Tag - RandomBits</title>
+        <link>http://shoaibb.github.io/bits/tags/ssh/</link>
+        <description>ssh - Tag - RandomBits</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Thu, 07 Jul 2022 12:16:13 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/tags/ssh/" rel="self" type="application/rss+xml" /><item>
+    <title>Port forwarding using SSH</title>
+    <link>http://shoaibb.github.io/bits/posts/ssh-port-fowarding/</link>
+    <pubDate>Thu, 07 Jul 2022 12:16:13 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/ssh-port-fowarding/</guid>
+    <description><![CDATA[This tip is about using a remote server as a development environment by running a jupyter notebook on the remote server (where the only port that is opened is port 22 for SSH) and using the local machine to connect (and use) jupyter notebook. Here, we assume that jupyter is running inside the remote server using port XXXX.
+Step 1: First step is to run jupyter in the remote server using the port XXXX, i.]]></description>
+</item>
+</channel>
+</rss>

@@ -4,7 +4,39 @@
         <link>http://shoaibb.github.io/bits/tags/</link>
         <description>Tags - Tag - RandomBits</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
-            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 12:16:13 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/tags/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Thu, 07 Jul 2022 12:16:13 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>jupyter</title>
+    <link>http://shoaibb.github.io/bits/tags/jupyter/</link>
+    <pubDate>Thu, 07 Jul 2022 12:16:13 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/tags/jupyter/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>port-forwarding</title>
+    <link>http://shoaibb.github.io/bits/tags/port-forwarding/</link>
+    <pubDate>Thu, 07 Jul 2022 12:16:13 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/tags/port-forwarding/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>remote-server</title>
+    <link>http://shoaibb.github.io/bits/tags/remote-server/</link>
+    <pubDate>Thu, 07 Jul 2022 12:16:13 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/tags/remote-server/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>ssh</title>
+    <link>http://shoaibb.github.io/bits/tags/ssh/</link>
+    <pubDate>Thu, 07 Jul 2022 12:16:13 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/tags/ssh/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>install-error</title>
     <link>http://shoaibb.github.io/bits/tags/install-error/</link>
     <pubDate>Wed, 06 Jul 2022 12:16:13 &#43;0200</pubDate>
@@ -50,38 +82,6 @@
     <pubDate>Wed, 06 Jul 2022 11:05:36 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
     <guid>http://shoaibb.github.io/bits/tags/programming/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>File-Transfer</title>
-    <link>http://shoaibb.github.io/bits/tags/file-transfer/</link>
-    <pubDate>Wed, 06 Jul 2022 10:25:11 &#43;0200</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/tags/file-transfer/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>scp</title>
-    <link>http://shoaibb.github.io/bits/tags/scp/</link>
-    <pubDate>Wed, 06 Jul 2022 10:25:11 &#43;0200</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/tags/scp/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>shortcut</title>
-    <link>http://shoaibb.github.io/bits/tags/shortcut/</link>
-    <pubDate>Thu, 23 Jun 2022 12:04:20 &#43;0200</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/tags/shortcut/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>symlink</title>
-    <link>http://shoaibb.github.io/bits/tags/symlink/</link>
-    <pubDate>Thu, 23 Jun 2022 12:04:20 &#43;0200</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/tags/symlink/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
