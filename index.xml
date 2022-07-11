@@ -32,7 +32,8 @@ Error App Damaged and cannot be opened In order to fix this type of error and to
     <pubDate>Wed, 06 Jul 2022 11:05:49 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
     <guid>http://shoaibb.github.io/bits/posts/filesearch/</guid>
-    <description><![CDATA[Searching for a file is fairly easy in a bash terminal. We can search a file if we know part of the file name or full name or even the file extension. For example, use the following command to find files using partial match in the file name, e.g. John
+    <description><![CDATA[Searching for a file is fairly easy in a bash terminal. We can search a file if we know part of the file name or full name or even the file extension.
+For example, use the following command to find files using partial match in the file name, e.g. John
 1 find . -type f -name &#34;*John*&#34; Similarly, we can use the fullname for the file if we know it:]]></description>
 </item>
 <item>
@@ -41,7 +42,8 @@ Error App Damaged and cannot be opened In order to fix this type of error and to
     <pubDate>Wed, 06 Jul 2022 11:05:36 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
     <guid>http://shoaibb.github.io/bits/posts/bulkfiles/</guid>
-    <description><![CDATA[Sometimes, we need to create smaller files in bulk for different purpose (such as, to test file transfer speed over a network). We can use the following bash one line script to do the job of creating 500 files each having 1MB size. The command will create files in a dir smaller_files
+    <description><![CDATA[Sometimes, we need to create smaller files in bulk for different purpose (such as, to test file transfer speed over a network). We can use the following bash one line script to do the job of creating 500 files each having 1MB size.
+The command will create files in a dir smaller_files
 1 for i in {001..500}; do head -c 1M &lt;/dev/urandom &gt;smaller_files/randfile$i; done ]]></description>
 </item>
 <item>

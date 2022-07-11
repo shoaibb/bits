@@ -10,7 +10,8 @@
     <pubDate>Wed, 06 Jul 2022 11:05:49 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
     <guid>http://shoaibb.github.io/bits/posts/filesearch/</guid>
-    <description><![CDATA[Searching for a file is fairly easy in a bash terminal. We can search a file if we know part of the file name or full name or even the file extension. For example, use the following command to find files using partial match in the file name, e.g. John
+    <description><![CDATA[Searching for a file is fairly easy in a bash terminal. We can search a file if we know part of the file name or full name or even the file extension.
+For example, use the following command to find files using partial match in the file name, e.g. John
 1 find . -type f -name &#34;*John*&#34; Similarly, we can use the fullname for the file if we know it:]]></description>
 </item>
 </channel>
