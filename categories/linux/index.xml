@@ -4,7 +4,18 @@
         <link>http://shoaibb.github.io/bits/categories/linux/</link>
         <description>Linux - Category - RandomBits</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
-            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 11:05:49 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/categories/linux/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Mon, 01 Aug 2022 07:16:13 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/categories/linux/" rel="self" type="application/rss+xml" /><item>
+    <title>Random Linux Terminal Tips</title>
+    <link>http://shoaibb.github.io/bits/posts/multipletips/</link>
+    <pubDate>Mon, 01 Aug 2022 07:16:13 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/multipletips/</guid>
+    <description><![CDATA[
+Some random but useful tips &hellip;
+Echo $PATH on separate lines Usually the path variable $PATH is echoed in a long line that is hard to read. The command below will pipe the output of echo command to another command tr that trims the long line based on a special character : and output the result into multiple single lines.
+1 echo $PATH | tr &#39;:&#39; &#39;\n&#39; ]]></description>
+</item>
+<item>
     <title>File Searching Through Terminal</title>
     <link>http://shoaibb.github.io/bits/posts/filesearch/</link>
     <pubDate>Wed, 06 Jul 2022 11:05:49 &#43;0200</pubDate>
