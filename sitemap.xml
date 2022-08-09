@@ -2,19 +2,21 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://shoaibb.github.io/bits/categories/</loc><lastmod>2022-08-01T07:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/categories/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/tags/grep/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/categories/linux-tips/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/posts/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/tags/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/posts/grep/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/linux/</loc><lastmod>2022-08-01T07:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/categories/linux/</loc><lastmod>2022-08-01T07:16:13&#43;02:00</lastmod></url><url>
-            <loc>http://shoaibb.github.io/bits/posts/</loc><lastmod>2022-08-01T07:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/posts/multipletips/</loc><lastmod>2022-08-01T07:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/categories/random-tips/</loc><lastmod>2022-08-01T07:16:13&#43;02:00</lastmod></url><url>
-            <loc>http://shoaibb.github.io/bits/</loc><lastmod>2022-08-01T07:16:13&#43;02:00</lastmod></url><url>
-            <loc>http://shoaibb.github.io/bits/tags/</loc><lastmod>2022-08-01T07:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/terminal/</loc><lastmod>2022-08-01T07:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/tips/</loc><lastmod>2022-08-01T07:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/jupyter/</loc><lastmod>2022-07-10T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/categories/jupyter/</loc><lastmod>2022-07-10T12:16:13&#43;02:00</lastmod></url><url>
-            <loc>http://shoaibb.github.io/bits/categories/linux-tips/</loc><lastmod>2022-07-10T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/posts/ssh-port-fowarding/</loc><lastmod>2022-07-10T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/port-forwarding/</loc><lastmod>2022-07-10T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/remote-server/</loc><lastmod>2022-07-10T12:16:13&#43;02:00</lastmod></url><url>

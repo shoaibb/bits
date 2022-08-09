@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>The GREP Command - RandomBits</title><meta name="Description" content="Welcome to My Blog"><meta property="og:title" content="The GREP Command" />
+<meta property="og:description" content="\
+The grep utilities are a family that includes grep, egrep, and fgrep for searching files. For most use cases, fgrep is sufficient due to speed and only looking into strings and words. However, typing grep is easy. Grep is an essential Linux and Unix command. It is used to search text and strings in a given file. In other words, grep command searches the given file for lines containing a match to the given strings or words." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://shoaibb.github.io/bits/posts/grep/" /><meta property="og:image" content="http://shoaibb.github.io/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-08-08T12:16:13+02:00" />
+<meta property="article:modified_time" content="2022-08-08T12:16:13+02:00" /><meta property="og:site_name" content="My cool site" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://shoaibb.github.io/logo.png"/>
+
+<meta name="twitter:title" content="The GREP Command"/>
+<meta name="twitter:description" content="\
+The grep utilities are a family that includes grep, egrep, and fgrep for searching files. For most use cases, fgrep is sufficient due to speed and only looking into strings and words. However, typing grep is easy. Grep is an essential Linux and Unix command. It is used to search text and strings in a given file. In other words, grep command searches the given file for lines containing a match to the given strings or words."/>
+<meta name="application-name" content="RandomBits">
+<meta name="apple-mobile-web-app-title" content="RandomBits"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="IMG_0657.jpg"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://shoaibb.github.io/bits/posts/grep/" /><link rel="prev" href="http://shoaibb.github.io/bits/posts/multipletips/" /><link rel="stylesheet" href="/bits/css/style.min.dc1e265a9e9cc52f661677164054d753.css" integrity="md5-3B4mWp6cxS9mFncWQFTXUw=="><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "The GREP Command",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/shoaibb.github.io\/bits\/posts\/grep\/"
+        },"genre": "posts","keywords": "grep","wordcount":  864 ,
+        "url": "http:\/\/shoaibb.github.io\/bits\/posts\/grep\/","datePublished": "2022-08-08T12:16:13+02:00","dateModified": "2022-08-08T12:16:13+02:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Shoaib Bakhtyar"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/bits/" title="RandomBits">RandomBits</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/bits/posts/"> Posts </a><a class="menu-item" href="/bits/tags/"> Tags </a><a class="menu-item" href="/bits/categories/"> Categories </a><a class="menu-item" href="/bits/about/"> About </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/bits/" title="RandomBits">RandomBits</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/bits/posts/" title="">Posts</a><a class="menu-item" href="/bits/tags/" title="">Tags</a><a class="menu-item" href="/bits/categories/" title="">Categories</a><a class="menu-item" href="/bits/about/" title="">About</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">The GREP Command</h1><h2 class="single-subtitle">search made easy...</h2><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/bits/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Shoaib Bakhtyar</a></span>&nbsp;<span class="post-category">included in <a href="/bits/categories/linux-tips/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Linux-Tips</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-08-08">2022-08-08</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;864 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;5 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#basic-usage">Basic Usage</a></li>
+        <li><a href="#searching-through-a-file">Searching through a file</a></li>
+        <li><a href="#searching-through-a-folder-recursively">Searching through a folder (recursively)</a></li>
+        <li><a href="#line-number-or-count-for-matching-word">Line number or count for matching word</a></li>
+        <li><a href="#lines-beforeafter-the-match">Lines before/after the match</a></li>
+        <li><a href="#force-grep-invert-match">Force grep invert match</a></li>
+        <li><a href="#get-names-of-matching-files">Get names of matching files</a></li>
+        <li><a href="#colors-option">Colors option</a></li>
+        <li><a href="#saving-grep-output-to-a-file">Saving grep output to a file</a></li>
+        <li><a href="#search-special-characters">Search special characters</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>\</p>
+<p>The grep utilities are a family that includes grep, egrep, and fgrep for searching files. For most use cases, fgrep is sufficient due to speed and only looking into strings and words. However, typing grep is easy. Grep is an essential Linux and Unix command. It is used to search text and strings in a given file. In other words, grep command searches the given file for lines containing a match to the given strings or words. It is one of the most useful commands on Linux and Unix-like system for developers and sysadmins.</p>
+<p>Following are some examples of using the <code>grep</code> command in different ways.</p>
+<h3 id="basic-usage">Basic Usage</h3>
+<p>Search any line that contains the word in filename:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep <span class="s1">&#39;word&#39;</span> filename
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Perform a case-insensitive search for the word ‘bar’ in Linux and Unix:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -i <span class="s1">&#39;bar&#39;</span> file1
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Look for all files in the current directory and in all of its subdirectories in Linux for the word ‘httpd’:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -R <span class="s1">&#39;httpd&#39;</span> .
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Search and display the total number of times that the string ‘nixcraft’ appears in a file named frontpage.md:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -c <span class="s1">&#39;nixcraft&#39;</span> frontpage.md
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="searching-through-a-file">Searching through a file</h3>
+<p>Search the /etc/passswd file for a user named ‘boo’, enter:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep <span class="s1">&#39;boo&#39;</span> /etc/passwd
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>We can use fgrep/grep to find all the lines of a file that contain a particular word. For example, to list all the lines of a file named address.txt in the current directory that contain the word “California”, run:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">fgrep California address.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The above command also returns lines where “California” is part of other words, such as “Californication” or “Californian”. Hence pass the <code>-w</code> option with the grep/fgrep command to get only lines where “California” is included as a whole word:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">fgrep -w California address.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>You can force grep to ignore word case i.e match boo, Boo, BOO and all other combination with the <code>-i</code> option:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -i <span class="s2">&#34;boo&#34;</span> /etc/passwd
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>We can also use grep to search 2 different words, for example use <code>egrep</code> command to search for word1 or word2 as follows:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">egrep -w <span class="s1">&#39;word1|word2&#39;</span> /path/to/file
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="searching-through-a-folder-recursively">Searching through a folder (recursively)</h3>
+<p>You can search recursively i.e. read all files under each directory for a string &ldquo;192.168.10.15&rdquo;:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -r <span class="s2">&#34;192.168.10.15&#34;</span> /etc/
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>You will see results for the above command on a separate line preceded by the name of the file (such as /etc/ppp/options) in which it was found. The inclusion of the file names in the output data can be suppressed by using the <code>-h</code> option as follows:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -hR <span class="s2">&#34;192.168.10.15&#34;</span> /etc/
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="line-number-or-count-for-matching-word">Line number or count for matching word</h3>
+<p>The grep can report the number of times that the pattern has been matched for each file using -c (count) option:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -c <span class="s1">&#39;word&#39;</span> /path/to/file
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Pass the <code>-n</code> option to precede each line of output with the number of the line in the text file from which it was obtained:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -n <span class="s1">&#39;root&#39;</span> /etc/passwd
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="lines-beforeafter-the-match">Lines before/after the match</h3>
+<p>Want to see the lines before your matches? Try passing the -B to the grep:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -B NUM <span class="s2">&#34;word&#34;</span> file
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1">#display 3 lines before a match is found</span>
+</span></span><span class="line"><span class="cl">grep -B <span class="m">3</span> <span class="s2">&#34;foo&#34;</span> file1
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>SImilarly, for lines after a match is found, try using -A:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -A NUM <span class="s2">&#34;string&#34;</span> /path/to/file
+</span></span><span class="line"><span class="cl"><span class="c1"># Display 4 lines after dropped word matched in firewall log file #</span>
+</span></span><span class="line"><span class="cl">grep -A <span class="m">4</span> <span class="s2">&#34;dropped&#34;</span> /var/log/ufw.log
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Sometimes we combine different options to get some meaningful outputs, such as:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -C <span class="m">4</span> -B <span class="m">5</span> -A <span class="m">6</span> --color <span class="s1">&#39;error-code&#39;</span> /var/log/httpd/access_log
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="force-grep-invert-match">Force grep invert match</h3>
+<p>You can use -v option to print inverts the match; that is, it matches only those lines that do not contain the given word. For example print all line that do not contain the word bar:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -v bar /path/to/file
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="get-names-of-matching-files">Get names of matching files</h3>
+<p>Use the -l option to list file name whose contents mention <strong>main</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -Rl <span class="s1">&#39;main&#39;</span> /path/to/project/dir/
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="colors-option">Colors option</h3>
+<p>Finally, we can force grep to display output in colors, enter:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep --color vivek /etc/passwd
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="saving-grep-output-to-a-file">Saving grep output to a file</h3>
+<p>Let us say you want to search for keyword acl and save that output a file named my-acl.txt, and then you need to run:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep acl squid.conf &gt; my-acl.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>We can find tune searching and limit the search to words starting with keyword named acl:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -w <span class="s1">&#39;^acl&#39;</span> squid.conf &gt; my-acl.txt
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="search-special-characters">Search special characters</h3>
+<p>Want to search [ or &rsquo; or ^ special characters using grep? You can ask grep to treat your input as fixed string using -F option or or fgrep command. For example:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># match ‘[xyz]’ in the filename</span>
+</span></span><span class="line"><span class="cl">fgrep <span class="s1">&#39;[xyz]&#39;</span> filename
+</span></span><span class="line"><span class="cl"><span class="c1"># or</span>
+</span></span><span class="line"><span class="cl">grep -F <span class="s1">&#39;[xyz]&#39;</span> filename
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>We can also use the *<em>*</em> as escape character. To match a character that is special to egrep or grep -E, a a backslash () in front of the character. It is usually simpler to use grep -F when you don’t need special pattern matching. For instance, try to match &lsquo;foo&rsquo; by putting *<em>*</em> before <strong>&rsquo;</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">grep -E <span class="s1">&#39;\&#39;</span>foo<span class="se">\&#39;</span><span class="err">&#39;</span> input
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>In short, use the fgrep or grep -F when you do not need to use pattern matching using regex.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2022-08-08</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://shoaibb.github.io/bits/posts/grep/" data-title="The GREP Command" data-hashtags="grep"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://shoaibb.github.io/bits/posts/grep/" data-hashtag="grep"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Linkedin" data-sharer="linkedin" data-url="http://shoaibb.github.io/bits/posts/grep/"><i class="fab fa-linkedin fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://shoaibb.github.io/bits/posts/grep/" data-title="The GREP Command"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Reddit" data-sharer="reddit" data-url="http://shoaibb.github.io/bits/posts/grep/"><i class="fab fa-reddit fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/bits/tags/grep/">grep</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/bits/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/bits/posts/multipletips/" class="prev" rel="prev" title="Random Linux Terminal Tips"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Random Linux Terminal Tips</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2021 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/bits/" target="_blank">Shoaib Bakhtyar</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/twemoji@14.0.2/dist/twemoji.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/auto-render.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/copy-tex.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/contrib/mhchem.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30},"twemoji":true};</script><script type="text/javascript" src="/bits/js/theme.min.d2b7572c68642e97d2b30cf02a69d30d.js" integrity="md5-0rdXLGhkLpfSswzwKmnTDQ=="></script></body>
+</html>
