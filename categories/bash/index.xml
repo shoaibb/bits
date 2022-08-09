@@ -4,7 +4,15 @@
         <link>http://shoaibb.github.io/bits/categories/bash/</link>
         <description>Bash - Category - RandomBits</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
-            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 11:05:36 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/categories/bash/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Mon, 08 Aug 2022 12:16:13 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/categories/bash/" rel="self" type="application/rss+xml" /><item>
+    <title>The GREP Command</title>
+    <link>http://shoaibb.github.io/bits/posts/grep/</link>
+    <pubDate>Mon, 08 Aug 2022 12:16:13 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/grep/</guid>
+    <description><![CDATA[The grep utilities are a family that includes grep, egrep, and fgrep for searching files. For most use cases, fgrep is sufficient due to speed and only looking into strings and words. However, typing grep is easy. Grep is an essential Linux and Unix command. It is used to search text and strings in a given file. In other words, grep command searches the given file for lines containing a match to the given strings or words.]]></description>
+</item>
+<item>
     <title>Creating Small Files in Bulk</title>
     <link>http://shoaibb.github.io/bits/posts/bulkfiles/</link>
     <pubDate>Wed, 06 Jul 2022 11:05:36 &#43;0200</pubDate>
