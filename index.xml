@@ -20,10 +20,9 @@
     <pubDate>Mon, 01 Aug 2022 07:16:13 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
     <guid>http://shoaibb.github.io/bits/posts/multipletips/</guid>
-    <description><![CDATA[
-Some random but useful tips &hellip;
-Echo $PATH on separate lines Usually the path variable $PATH is echoed in a long line that is hard to read. The command below will pipe the output of echo command to another command tr that trims the long line based on a special character : and output the result into multiple single lines.
-1 echo $PATH | tr &#39;:&#39; &#39;\n&#39; ]]></description>
+    <description><![CDATA[Some random but useful tips &hellip;
+1. Echo $PATH on separate lines Usually the path variable $PATH is echoed in a long line that is hard to read. The command below will pipe the output of echo command to another command tr that trims the long line based on a special character : and output the result into multiple single lines.
+1 echo $PATH | tr &#39;:&#39; &#39;\n&#39; 2. Functions in bash profile We can define our own custom functions in bash profile (.]]></description>
 </item>
 <item>
     <title>Port forwarding using SSH</title>
