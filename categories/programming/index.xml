@@ -4,7 +4,17 @@
         <link>http://shoaibb.github.io/bits/categories/programming/</link>
         <description>Programming - Category - RandomBits</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
-            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 11:05:36 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/categories/programming/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Thu, 27 Oct 2022 12:16:13 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/categories/programming/" rel="self" type="application/rss+xml" /><item>
+    <title>The configparser module</title>
+    <link>http://shoaibb.github.io/bits/posts/configparser/</link>
+    <pubDate>Thu, 27 Oct 2022 12:16:13 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/configparser/</guid>
+    <description><![CDATA[The configparser module is used to handle different credentials in one file. Often we would like not to store our login details in a script. One way is to store login details in a config file and then use it from the file through the configparser module in python.
+Let’s see how to create a configuration file programmatically. Our goal is to create the credentials of different connections.
+To create a config file 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 import configparser config = configparser.]]></description>
+</item>
+<item>
     <title>Creating Small Files in Bulk</title>
     <link>http://shoaibb.github.io/bits/posts/bulkfiles/</link>
     <pubDate>Wed, 06 Jul 2022 11:05:36 &#43;0200</pubDate>

@@ -2,14 +2,20 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://shoaibb.github.io/bits/categories/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/tags/config/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/posts/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/categories/programming/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/tags/python/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/tags/scripting/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/categories/scripting/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/tags/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/posts/configparser/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/categories/bash/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
-            <loc>http://shoaibb.github.io/bits/categories/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/grep/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/categories/linux/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/categories/linux-tips/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
-            <loc>http://shoaibb.github.io/bits/posts/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
-            <loc>http://shoaibb.github.io/bits/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
-            <loc>http://shoaibb.github.io/bits/tags/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/posts/grep/</loc><lastmod>2022-08-08T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/linux/</loc><lastmod>2022-08-01T07:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/posts/multipletips/</loc><lastmod>2022-08-01T07:16:13&#43;02:00</lastmod></url><url>
@@ -32,7 +38,6 @@
             <loc>http://shoaibb.github.io/bits/tags/search/</loc><lastmod>2022-07-06T11:05:49&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/posts/bulkfiles/</loc><lastmod>2022-07-06T11:05:36&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/programming/</loc><lastmod>2022-07-06T11:05:36&#43;02:00</lastmod></url><url>
-            <loc>http://shoaibb.github.io/bits/categories/programming/</loc><lastmod>2022-07-06T11:05:36&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/file-transfer/</loc><lastmod>2022-07-06T10:25:11&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/scp/</loc><lastmod>2022-07-06T10:25:11&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/posts/scp/</loc><lastmod>2022-07-06T10:25:11&#43;02:00</lastmod></url><url>
