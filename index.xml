@@ -7,13 +7,21 @@
             <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Mon, 22 May 2023 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="http://shoaibb.github.io/bits/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>pbcopy and pbpaste for MAC terminal</title>
+    <title>pbcopy and pbpaste for terminal</title>
     <link>http://shoaibb.github.io/bits/posts/pbcopy-and-pbpaste-for-terminal/</link>
     <pubDate>Mon, 22 May 2023 00:00:00 &#43;0000</pubDate>
     <author>Shoaib Bakhtyar</author>
     <guid>http://shoaibb.github.io/bits/posts/pbcopy-and-pbpaste-for-terminal/</guid>
-    <description><![CDATA[pbcopy will allow you to copy the output of a command right into your clipboard. Vice-versa for pbpaste — it will allow you to paste your clipboard right into your terminal.
-1 2 3 4 # This will copy all the content within a file. $ cat myfile.txt | pbcopy # This will output the contents of your clipboard. $ pbpaste Copy and pasting for Linux Unfortunately the pbcopy and pbpaste commands are exclusively for Mac, but you can recreate these commands on Linux by using xsel.]]></description>
+    <description><![CDATA[1 2 3 4 # This will copy all the content within a file. $ cat myfile.txt | pbcopy # This will output the contents of your clipboard. $ pbpaste Copy and pasting for Linux Unfortunately the pbcopy and pbpaste commands are exclusively for Mac, but you can recreate these commands on Linux by using xsel. Add these lines inside your .bashrc file and start a new terminal.
+1 2 3 ## Linux version of OSX pbcopy and pbpaste.]]></description>
+</item>
+<item>
+    <title>TestNote</title>
+    <link>http://shoaibb.github.io/bits/posts/testnote/</link>
+    <pubDate>Mon, 22 May 2023 00:00:00 &#43;0000</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/testnote/</guid>
+    <description><![CDATA[This is a test page.]]></description>
 </item>
 <item>
     <title>The configparser module</title>
@@ -92,16 +100,6 @@ The command will create files in a dir smaller_files
     <description><![CDATA[SCP is a nice tool that can be used for file transferring between two computers (referred to as machines in this post).
 We can use the following scp command to transfer file(s) from your local machine to a remote machine. Remember to cd first to the files location and then run this command (shobak-local is your local username and shoabk-remote is the remote username).
 1 2 3 # cd to location of files that are to be transferred cd /home/shobak-local/Desktop ~/shobak-local/Desktop$ 1 scp files_to_move.]]></description>
-</item>
-<item>
-    <title>Shortcut/Symlink</title>
-    <link>http://shoaibb.github.io/bits/posts/symlink/</link>
-    <pubDate>Thu, 23 Jun 2022 12:04:20 &#43;0200</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/posts/symlink/</guid>
-    <description><![CDATA[Suppose we have the following directory that we would like to create a shortcutto. We can use the bash command ln to create a shortcut or symlink (as its called in Linux).
-Dir of interest /run/user/3106/gvfs/smb-share:server=10.1.111.10,share=forskning03/zML-files/ We can use the following command to create a shortcut/symlink to this directory at the current location (from where the command is executed). The shortcut name will be files_to_move.
-1 sudo ln -s &#39;/run/user/3106/gvfs/smb-share:server=10.1.111.10,share=forskning03/zML-files/&#39; files_to_move ]]></description>
 </item>
 </channel>
 </rss>
