@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>test2 - Tag - RandomBits</title>
+        <link>http://shoaibb.github.io/bits/tags/test2/</link>
+        <description>test2 - Tag - RandomBits</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><atom:link href="http://shoaibb.github.io/bits/tags/test2/" rel="self" type="application/rss+xml" /><item>
+    <title>just a note</title>
+    <link>http://shoaibb.github.io/bits/posts/2023-05-22/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/2023-05-22/</guid>
+    <description><![CDATA[🛠️ Title ]]></description>
+</item>
+</channel>
+</rss>

@@ -92,5 +92,13 @@ We can use the following scp command to transfer file(s) from your local machine
 Dir of interest /run/user/3106/gvfs/smb-share:server=10.1.111.10,share=forskning03/zML-files/ We can use the following command to create a shortcut/symlink to this directory at the current location (from where the command is executed). The shortcut name will be files_to_move.
 1 sudo ln -s &#39;/run/user/3106/gvfs/smb-share:server=10.1.111.10,share=forskning03/zML-files/&#39; files_to_move ]]></description>
 </item>
+<item>
+    <title>just a note</title>
+    <link>http://shoaibb.github.io/bits/posts/2023-05-22/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/2023-05-22/</guid>
+    <description><![CDATA[🛠️ Title ]]></description>
+</item>
 </channel>
 </rss>
