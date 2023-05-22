@@ -2,12 +2,13 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://shoaibb.github.io/bits/posts/pbcopy-and-pbpaste-for-terminal/</loc><lastmod>2023-05-22T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/posts/</loc><lastmod>2023-05-22T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>http://shoaibb.github.io/bits/</loc><lastmod>2023-05-22T00:00:00&#43;00:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/categories/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/config/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
-            <loc>http://shoaibb.github.io/bits/posts/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/categories/programming/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/python/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
-            <loc>http://shoaibb.github.io/bits/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/scripting/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/categories/scripting/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
             <loc>http://shoaibb.github.io/bits/tags/</loc><lastmod>2022-10-27T12:16:13&#43;02:00</lastmod></url><url>
