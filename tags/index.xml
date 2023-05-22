@@ -4,23 +4,7 @@
         <link>http://shoaibb.github.io/bits/tags/</link>
         <description>Tags - Tag - RandomBits</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
-            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Mon, 22 May 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>test</title>
-    <link>http://shoaibb.github.io/bits/tags/test/</link>
-    <pubDate>Mon, 22 May 2023 00:00:00 &#43;0000</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/tags/test/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>test2</title>
-    <link>http://shoaibb.github.io/bits/tags/test2/</link>
-    <pubDate>Mon, 22 May 2023 00:00:00 &#43;0000</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/tags/test2/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Thu, 27 Oct 2022 12:16:13 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/tags/" rel="self" type="application/rss+xml" /><item>
     <title>config</title>
     <link>http://shoaibb.github.io/bits/tags/config/</link>
     <pubDate>Thu, 27 Oct 2022 12:16:13 &#43;0200</pubDate>
@@ -82,6 +66,22 @@
     <pubDate>Thu, 07 Jul 2022 12:16:13 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
     <guid>http://shoaibb.github.io/bits/tags/jupyter/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>port-forwarding</title>
+    <link>http://shoaibb.github.io/bits/tags/port-forwarding/</link>
+    <pubDate>Thu, 07 Jul 2022 12:16:13 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/tags/port-forwarding/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>remote-server</title>
+    <link>http://shoaibb.github.io/bits/tags/remote-server/</link>
+    <pubDate>Thu, 07 Jul 2022 12:16:13 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/tags/remote-server/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

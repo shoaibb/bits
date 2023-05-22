@@ -4,17 +4,9 @@
         <link>http://shoaibb.github.io/bits/</link>
         <description>Welcome to My Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
-            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Mon, 22 May 2023 00:00:00 &#43;0000</lastBuildDate>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Thu, 27 Oct 2022 12:16:13 &#43;0200</lastBuildDate>
             <atom:link href="http://shoaibb.github.io/bits/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>just a note</title>
-    <link>http://shoaibb.github.io/bits/posts/2023-05-22/</link>
-    <pubDate>Mon, 22 May 2023 00:00:00 &#43;0000</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/posts/2023-05-22/</guid>
-    <description><![CDATA[🛠️ Title]]></description>
-</item>
-<item>
     <title>The configparser module</title>
     <link>http://shoaibb.github.io/bits/posts/configparser/</link>
     <pubDate>Thu, 27 Oct 2022 12:16:13 &#43;0200</pubDate>
