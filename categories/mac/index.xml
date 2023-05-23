@@ -4,7 +4,16 @@
         <link>http://shoaibb.github.io/bits/categories/mac/</link>
         <description>MAC - Category - RandomBits</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
-            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Wed, 06 Jul 2022 12:16:13 &#43;0200</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/categories/mac/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Mon, 22 May 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/categories/mac/" rel="self" type="application/rss+xml" /><item>
+    <title>pbcopy and pbpaste for terminal</title>
+    <link>http://shoaibb.github.io/bits/posts/pbcopy-and-pbpaste-for-terminal/</link>
+    <pubDate>Mon, 22 May 2023 00:00:00 &#43;0000</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/pbcopy-and-pbpaste-for-terminal/</guid>
+    <description><![CDATA[1 2 3 4 # This will copy all the content within a file. $ cat myfile.txt | pbcopy # This will output the contents of your clipboard. $ pbpaste Copy and pasting for Linux Unfortunately the pbcopy and pbpaste commands are exclusively for Mac, but you can recreate these commands on Linux by using xsel. Add these lines inside your .bashrc file and start a new terminal.
+1 2 3 ## Linux version of OSX pbcopy and pbpaste.]]></description>
+</item>
+<item>
     <title>MAC App Installation Error</title>
     <link>http://shoaibb.github.io/bits/posts/appinstallerr/</link>
     <pubDate>Wed, 06 Jul 2022 12:16:13 &#43;0200</pubDate>
