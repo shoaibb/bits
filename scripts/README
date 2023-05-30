@@ -1,0 +1,6 @@
+Description:
+autogit.sh will copy/paste .md files from the iMind/RandomBits to /src_notes/content/posts dir. 
+Next it will add, commit and push these changes to the src_notes git repo. 
+
+How To:
+$sh path_to_src_notes/content/scripts/autogit.sh "a commit message for github"  
