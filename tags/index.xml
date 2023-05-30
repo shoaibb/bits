@@ -5,14 +5,6 @@
         <description>Tags - Tag - RandomBits</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
             <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Mon, 22 May 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://shoaibb.github.io/bits/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>copy-paste</title>
-    <link>http://shoaibb.github.io/bits/tags/copy-paste/</link>
-    <pubDate>Mon, 22 May 2023 00:00:00 &#43;0000</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/tags/copy-paste/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
     <title>tag111</title>
     <link>http://shoaibb.github.io/bits/tags/tag111/</link>
     <pubDate>Mon, 22 May 2023 00:00:00 &#43;0000</pubDate>
@@ -26,14 +18,6 @@
     <pubDate>Mon, 22 May 2023 00:00:00 &#43;0000</pubDate>
     <author>Shoaib Bakhtyar</author>
     <guid>http://shoaibb.github.io/bits/tags/tag222/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title>terminal</title>
-    <link>http://shoaibb.github.io/bits/tags/terminal/</link>
-    <pubDate>Mon, 22 May 2023 00:00:00 &#43;0000</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/tags/terminal/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
@@ -77,11 +61,27 @@
     <description><![CDATA[]]></description>
 </item>
 <item>
+    <title>terminal</title>
+    <link>http://shoaibb.github.io/bits/tags/terminal/</link>
+    <pubDate>Mon, 01 Aug 2022 07:16:13 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/tags/terminal/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
     <title>tips</title>
     <link>http://shoaibb.github.io/bits/tags/tips/</link>
     <pubDate>Mon, 01 Aug 2022 07:16:13 &#43;0200</pubDate>
     <author>Shoaib Bakhtyar</author>
     <guid>http://shoaibb.github.io/bits/tags/tips/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>jupyter</title>
+    <link>http://shoaibb.github.io/bits/tags/jupyter/</link>
+    <pubDate>Thu, 07 Jul 2022 12:16:13 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/tags/jupyter/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>
