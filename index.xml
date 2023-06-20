@@ -4,15 +4,16 @@
         <link>http://shoaibb.github.io/bits/</link>
         <description>Welcome to My Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</managingEditor>
-            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Tue, 30 May 2023 00:00:00 &#43;0000</lastBuildDate>
+            <webMaster>shoaib.bakhtyar@gmail.com (Shoaib Bakhtyar)</webMaster><lastBuildDate>Tue, 20 Jun 2023 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="http://shoaibb.github.io/bits/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>TestNote</title>
-    <link>http://shoaibb.github.io/bits/posts/rtestnote/</link>
-    <pubDate>Tue, 30 May 2023 00:00:00 &#43;0000</pubDate>
+    <title>Download coursera courses</title>
+    <link>http://shoaibb.github.io/bits/posts/coursera-download/</link>
+    <pubDate>Tue, 20 Jun 2023 00:00:00 &#43;0000</pubDate>
     <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/posts/rtestnote/</guid>
-    <description><![CDATA[This is a test page.]]></description>
+    <guid>http://shoaibb.github.io/bits/posts/coursera-download/</guid>
+    <description><![CDATA[Recently, I found some interesting courses that I wanted to study and I got enrolled in these. However, due to a busy schedule and lack of free time, I was not able to complete the courses in time. Then I thought how wonderful it will be if I can bulk download these courses and can study whenever I get free time.
+I found a nice tool dl_coursera from this repo: https://github.]]></description>
 </item>
 <item>
     <title>pbcopy and pbpaste for terminal</title>
@@ -22,14 +23,6 @@
     <guid>http://shoaibb.github.io/bits/posts/pbcopy-and-pbpaste-for-terminal/</guid>
     <description><![CDATA[1 2 3 4 # This will copy all the content within a file. $ cat myfile.txt | pbcopy # This will output the contents of your clipboard. $ pbpaste Copy and pasting for Linux Unfortunately the pbcopy and pbpaste commands are exclusively for Mac, but you can recreate these commands on Linux by using xsel. Add these lines inside your .bashrc file and start a new terminal.
 1 2 3 ## Linux version of OSX pbcopy and pbpaste.]]></description>
-</item>
-<item>
-    <title>TestNote</title>
-    <link>http://shoaibb.github.io/bits/posts/testnote/</link>
-    <pubDate>Mon, 22 May 2023 00:00:00 &#43;0000</pubDate>
-    <author>Shoaib Bakhtyar</author>
-    <guid>http://shoaibb.github.io/bits/posts/testnote/</guid>
-    <description><![CDATA[This is a test page.]]></description>
 </item>
 <item>
     <title>The configparser module</title>
@@ -98,6 +91,16 @@ For example, use the following command to find files using partial match in the 
     <description><![CDATA[Sometimes, we need to create smaller files in bulk for different purpose (such as, to test file transfer speed over a network). We can use the following bash one line script to do the job of creating 500 files each having 1MB size.
 The command will create files in a dir smaller_files
 1 for i in {001..500}; do head -c 1M &lt;/dev/urandom &gt;smaller_files/randfile$i; done ]]></description>
+</item>
+<item>
+    <title>SCP File Transfering</title>
+    <link>http://shoaibb.github.io/bits/posts/scp/</link>
+    <pubDate>Wed, 06 Jul 2022 10:25:11 &#43;0200</pubDate>
+    <author>Shoaib Bakhtyar</author>
+    <guid>http://shoaibb.github.io/bits/posts/scp/</guid>
+    <description><![CDATA[SCP is a nice tool that can be used for file transferring between two computers (referred to as machines in this post).
+We can use the following scp command to transfer file(s) from your local machine to a remote machine. Remember to cd first to the files location and then run this command (shobak-local is your local username and shoabk-remote is the remote username).
+1 2 3 # cd to location of files that are to be transferred cd /home/shobak-local/Desktop ~/shobak-local/Desktop$ 1 scp files_to_move.]]></description>
 </item>
 </channel>
 </rss>
